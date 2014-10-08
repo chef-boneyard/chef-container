@@ -2,7 +2,7 @@ require 'rake'
 require 'erb'
 require 'tmpdir'
 
-@latest_version = '11.12.8'
+@latest_version = '11.16.2'
 
 namespace :docker do
   desc 'build specified image'
